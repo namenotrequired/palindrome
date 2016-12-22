@@ -7,13 +7,15 @@ var checkPalindrome = require('../services/checkPalindrome');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Palindrome Checker' });
+    res.render('index', {
+        title: 'Palindrome Checker'
+    });
 });
 
 /* POST check palindrome API */
 router.post('/check-palindrome', function(req, res, next) {
     var text = req.body.text;
-    // if (!text) { // Commented out because I guess '' is a palindrome!
+    // if (!text) { // Commented out because I guess '' is a palindrome
     //     return res.sendStatus(400);
     // }
 
