@@ -9,3 +9,5 @@ $ git clone https://github.com/namenotrequired/palindrome.git && cd palindrome
 $ npm install
 $ npm start
 ```
+
+Now open [localhost:300](http://localhost:300) and see the magic in action!
