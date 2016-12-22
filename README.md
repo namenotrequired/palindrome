@@ -10,4 +10,4 @@ $ npm install
 $ npm start
 ```
 
-Now open [localhost:300](http://localhost:300) and see the magic in action!
+Now open [localhost:3000](http://localhost:3000) and see the magic in action!
